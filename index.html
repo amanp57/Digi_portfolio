@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Patil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c11f3b233f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Aman</span><br>from MIT AOE</h1>
+            </div>
+        </div>
+    </div>
+    <!------------about--------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/phone-background.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a software developer and machine learning enthusiast with a passion for technology and a keen eye for detail. I've successfully completed several machine learning projects, demonstrating my ability to apply advanced algorithms and statistical models to real-world problems. As a software and web developer, I've honed my skills in coding and design, creating visually appealing and user-friendly applications and websites that meet the needs of my clients. I'm committed to staying up-to-date with the latest developments in software development and machine learning, always seeking new challenges and opportunities to expand my knowledge and expertise.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C++</span><br>For backend development and grasping Data Structures and Algorithms.</li>
+                            <li><span>Machine Learning</span><br>Using models on datasets for relevant solutions</li>
+                            <li><span>Deep Learning</span><br>Designing neural network</li>
+                            <li><span>Python</span><br>For machine learning and neural network projects.</li>
+                            <li><span>HTML</span><br>The backbone of web content, organizing and structuring information for seamless online experiences.</li>
+                            <li><span>CSS</span><br> Infusing creativity and style into web pages, enhancing user engagement and interaction through visually captivating design.</li>
+                            <li><span>JavaScript</span><br> Elevating interactivity and functionality on the web, bringing dynamic experiences to life with versatile coding prowess.</li>
+                            <li><span>SQL</span><br>Powering data management and retrieval for efficient databases.</li>
+                            
+                        </ul>
+                    </div>
+                    <!-- <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Esanchalak Solutions and Services Pvt. Ltd.<br>June 13, 2021 - August 7, 2021</span><br>Working on building a Customer Relationship Management portal for the company based on MERN Stack.</li>
+                        </ul>
+                    </div> -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B. Tech. Computer Engineering</span><br>MIT Academy of Engineering, Pune</li>
+                            <li><span>10th</span><br>Sunflag School, Bhandara</li>
+                            <li><span>12th</span><br>Hislop College, Nagpur</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------services--------------------- --> 
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list"> 
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Proficient in HTML, CSS, and JavaScript<br>
+                        <br>Experience with front-end frameworks such as React and Angular
+                        <br>Experience with back-end technologies such as Node.js and PHP
+                        <br>Familiarity with databases such as MySQL and MongoDB
+                        <br>Experience with version control tools such as Git</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Data Analytics</h2>
+                    <p>Proficient in SQL, Python, and Microsoft Excel<br>
+                        Experience with data visualization tools such as Tableau and Power BI<br>
+                        Strong analytical and problem-solving skills<br>
+                        Ability to work with large datasets and perform data cleansing and transformation<br>
+                        Familiarity with machine learning algorithms and techniques</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Software Developement</h2>
+                    <p>Proficient in C++, Python, and adaptability to high-level programming languages.<br>
+                        Experience with Machine learning algorithms and Computer Vision.<br>
+                        Experience with Natural Language Processing.<br>
+                        Familiarity with version control systems like Git and SVN<br>
+                        Strong debugging and problem-solving skills</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------portfolio--------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Sentimental Analysis of Youtube comments.</h3>
+                        <p>Built a web application for sentimental analysis of youtube comments using Machine Learning algorithms.</p>
+                        <a href="https://github.com/amanp57/Sentimental-Analysis-of-Youtube-Comments" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.gif">
+                    <div class="layer">
+                        <h3>CRM</h3>
+                        <p>Created a web application for measurement of objects using live feed or images.</p>
+                        <a href="https://github.com/amanp57/Object-Measurement" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/3.jpeg">
+                    <div class="layer">
+                        <h3>Image Transformation</h3>
+                        <p>Built a web application that transforms a provided image according to the user request(drop down menu).</p>
+                        <a href="https://github.com/amanp57/Image_Transformation" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Task manager</h3>
+                            <p>Created an task manager in MEAN stack where users can add, delete, update tasks</p>
+                        <a href="https://github.com/Atharva3122/task-manager" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/amanp57?tab=repositories" target="_blank" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- ------------------contact------------------------ -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-col-1">
+                    <h1><i class="fa-solid fa-paper-plane"></i> Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> amanpatil@mitaoe.ac.in</p>
+                    <p><i class="fa-solid fa-phone"></i> +918390733889</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/amanp57" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/aman-patil-6b1076305/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://cybersec-zeroday.blogspot.com/" target="_blank"><i class="fa-brands fa-blogger-b"></i></a>
+                    </div>
+                    <a href="images/AMAN_PATIL.pdf" class="btn btn2" download>Download CV</A>
+                </div>
+                <div class="contact-col-2">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright"><i class="fa-regular fa-copyright"></i> Aman Patil</div>
+    </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName('tab-links');
+        var tabcontents=document.getElementsByClassName('tab-contents');
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove('active-link');
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tab');
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
